@@ -8,7 +8,7 @@ Professor: Érick Fernandes
 
 João Victor Rodrigues
 
-João Gabriel
+João Gabriel Wisnievski
 
 ## Sistema Bibliotecário
 Nosso domínio de aplicação escolhido foi o sistema bibliotecário.
