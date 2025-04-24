@@ -14,7 +14,7 @@ João Gabriel
 Nosso domínio de aplicação escolhido foi o sistema bibliotecário.
 
 ### 1. Main
-No main está nossos testes do projeto, como o ID das instâncias são aleatórios a cada vez que o programa roda, criamos Setters de ID apenas para fins de teste.
+No main está nossos testes do projeto. Como o ID das instâncias são aleatórios a cada vez que o programa roda, criamos Setters de ID apenas para fins de teste.
 
 ### 2. Classe Abstrata ItemBiblioteca
 Esta classe abstrata representa um item da biblioteca, neste projeto é apenas utilizado pela classe Livro, podendo se extender pelos demais objetos de uma biblioteca real.
