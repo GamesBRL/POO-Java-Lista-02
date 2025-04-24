@@ -29,7 +29,7 @@ public class Main {
         //-----------------------------//
         
         biblioteca.exibirLivros();
-        biblioteca.exibirUsuarios();
+        biblioteca.exibirListaUsuarios();
         
         try {
        

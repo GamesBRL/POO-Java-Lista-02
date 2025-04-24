@@ -51,7 +51,8 @@ public class Livro extends ItemBiblioteca implements Emprestavel {
         if (disponivel) {
             System.out.println("- \"" + titulo + "\" (Autor: " + autor + ") (ID: " + id + ") - Disponível");
         } else {
-            System.out.println("- \"" + titulo + "\" (Autor: " + autor + ") (ID: " + id + ") - Emprestado para " + emprestadoPara.getNome());
+            System.out.println("- \"" + titulo + "\" (Autor: " + autor + ") (ID: " + id + ") - Emprestado para " 
+        + emprestadoPara.getNome() + " (ID: " + emprestadoPara.getId() + ")");
         }
     }
     

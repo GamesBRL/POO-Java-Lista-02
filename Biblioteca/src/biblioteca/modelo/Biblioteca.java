@@ -78,7 +78,7 @@ public class Biblioteca {
         }
     }
 
-    public void exibirUsuarios() {
+    public void exibirListaUsuarios() {
         System.out.println("\nLista de usuários:");
         for (Usuario usuario : usuarios) {
             System.out.println("- " + usuario.getNome() + " (ID: " + usuario.getId() + ")");
