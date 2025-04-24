@@ -10,42 +10,26 @@ João Victor Rodrigues
 
 João Gabriel
 
-## Exercício 1: Aplicando os conhecimentos
-### Grupo: até duas pessoas
-### Valor: 1,0 ponto
+## Sistema Bibliotecário
+Nosso domínio de aplicação escolhido foi o sistema bibliotecário.
 
-Nesta atividade, você vai escolher um domínio de aplicação e implementar a
-solução utilizando os conceitos aprendidos em aula até agora.
+### 1. Main
+No main está nossos testes do projeto, como o ID das instâncias são aleatórios a cada vez que o programa roda, criamos Setters de ID apenas para fins de teste.
 
-## Requisitos
-1. Mínimo de 3 classes por projeto
-2. Mínimo de 1 classe abstrata
-3. Mínimo de 1 interface
-4. Uma classe Main que simule o funcionamento de um programa que
-utilize as classes criadas
-5. Tratamento de exceções nas operações do programa
+### 2. Classe Abstrata ItemBiblioteca
+Esta classe abstrata representa um item da biblioteca, neste projeto é apenas utilizado pela classe Livro, podendo se extender pelos demais objetos de uma biblioteca real.
 
-## Exemplos de domínio de aplicação
+### 3. Classe Livro
+Esta classe contém o nome, autor e id, além de extender a classe ItemBiblioteca, indicando que o livro é um objeto da biblioteca, temos o método construtor, setters e getters, além de métodos protegidos que serão utilizados na classe Biblioteca.
 
-• Sistema de biblioteca
+### 4. Interface Emprestável
+Esta interface é implementada por objetos que a biblioteca pode emprestar, no caso deste projeto, o livro é o item emprestável.
 
-• Banco digital
+### 5. Classe Usuário
+Esta classe usuário contém o nome, id e uma lista de livros que foram emprestados, esta classe tambem possui getters e setters, além de método construtor e métodos protegidos.
 
-• E-commerce de roupas
+### 6. Exceptions
+O projeto possui tratamento de exceções personalizadas dentro da classe Biblioteca.
 
-• Cadastro de clientes
-
-• Controle de estoque
-
-## Envio do trabalho
-O trabalho deve ser publicado como repositório no GitHub, o link deve ser
-enviado (pelos dois membros em caso de dupla) na plataforma da Estácio.
-
-## Critérios de avaliação
-
-• Aplicação dos tópicos da disciplina
-
-• Organização do projeto (nada de compilar tudo em um só arquivo, me
-ajudem na legibilidade do código)
-
-Bom trabalho, me tragam bons projetos
+### 7. Biblioteca
+A classe biblioteca é a principal, no main se cria uma instancia de biblioteca, nela é armazenada listas de usuários e livros, também é ela que pode gerenciar tudo, adição e remoção de livros e usuários, visualização destas listas e busca individual.
